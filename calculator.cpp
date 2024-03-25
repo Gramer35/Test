@@ -18,7 +18,7 @@ int main() //changed to int. Haven't seen void in any of our work
 
 	while (answer=='y' || answer == 'Y') // can be case sensitive so inserted the or to read capital or lower case y
 	{
-		cout << "Enter expression" <<endl;
+		cout << "Enter expression" << endl;
 		cin >> op2 >> operation >> op1;
         //removed semicolon after if statements and added '{ }'
 		if (operation == "+") { 
